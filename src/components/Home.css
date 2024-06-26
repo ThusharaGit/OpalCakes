@@ -1,0 +1,553 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     
+    .home_small{
+        display: block;
+    }
+    .home_large{
+        display: none;
+    }  
+
+    .mainDiv {
+        height: 500px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        
+       
+    }
+    .back_image{
+        background-image: url(https://t4.ftcdn.net/jpg/02/60/70/25/360_F_260702587_Dnw3cADKzYGJqvys83w55CSg7HClRVbV.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        opacity: 80%;
+       
+    }
+    .sloganimageDiv{
+        /* background-image: url(https://cdn.vectorstock.com/i/preview-2x/34/35/canoe-boy-background-vector-1043435.webp); */
+        /* background-image: url(https://png.pngtree.com/background/20230528/original/pngtree-beautiful-shot-of-kayak-in-a-narrow-body-of-water-picture-image_2778846.jpg); */
+        background-image: url(https://t3.ftcdn.net/jpg/06/22/82/38/360_F_622823841_O9TgQvj1XY3HRLZz1Zs1WSrg3FGS7D8k.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        
+    }
+    .sloganText {
+        margin: 20px;
+        color: green;
+        font-size: 2em;
+        text-align: center;
+    }
+    .slogan_para {
+        text-align: center;
+        border-bottom: 25px;
+    }
+
+    
+
+    .missionDiv {
+        height: 400px;
+        width: 50%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+    
+    }
+    
+    .missionimageDiv {
+        background-image: url(https://i.redd.it/jmq7wtto7ncz.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
+       
+    }
+    .back_mission_image{
+        background-image: url(https://img.freepik.com/premium-vector/blue-green-circle-frame-abstract-flow-transparent-waves-shape-circle_206325-54.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 35%;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        opacity: 50%; 
+        top: 570px; 
+        left: 117px;   
+    }
+    .missionText{
+        padding-bottom: 15px;
+    }
+
+
+    .learnMoreText {
+        margin-top: 15px;
+        font-size: 1em;
+        color: green;
+    }
+
+
+    .comments_heading{
+        width: 80%;
+        font-size: 1.5em;
+        margin-top: 45px;
+        margin-bottom: 20px;
+     }
+    .comments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 20px;
+        text-align: center;
+        height: 600px;
+    }
+    .comments_div{
+       height: 280px; 
+       width: 85%;
+       background-image: linear-gradient(rgb(96, 214, 96), rgb(216, 185, 82));
+       border-radius: 10px;
+       text-align: left;
+       padding: 30px;
+       justify-content: center;
+       justify-items: center;
+       align-items: center;
+    }
+    .all_circles{
+       display: flex; 
+       flex-direction: row;
+       justify-content: space-around;
+       justify-items: center;
+       align-items: center;
+       width: 75%;
+       height: 30px;
+    }
+    .circle{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: white;   
+    }
+    .heading_and_comments{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+    .new{
+        color:rgb(96, 214, 96) ;
+    }
+    .trips_coming_heading{
+        font-size: 1.5em;
+        padding-bottom: 25px;
+        
+     }
+    .trips_coming_text{
+        width: 80%;
+    }
+
+
+
+    .specialDiv{
+        height: 300px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .specialWrapper{
+        height: 100px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding-top: 130px;
+       
+    }
+    
+    .special{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        
+        
+    }
+    .special_small{
+        display: none;
+    }
+    .specialHeading{
+        font-weight: bold;    
+    }
+    .specialText{
+        margin-top: 15px;
+        text-align: center;
+        width: 80%;
+        padding-bottom: 45px;
+    }
+    .specialImage{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        width: 180px;
+        border-radius: 10px;
+        margin-bottom: 15px; 
+        margin-top: 30px;
+    }
+    
+    #specialImage1{
+        background-image: url(https://img.freepik.com/premium-photo/2d-elementary-school-kids-cartoon-vector-clip-art_300636-1427.jpg);
+    }
+    #specialImage2{
+        background-image: url(https://storage.prompt-hunt.workers.dev/clhg99yj6000cme08dpsuaey6_1);
+        display: none;
+    }
+    #specialImage3{
+        background-image: url(https://img.freepik.com/free-vector/children-playing-park_1308-82121.jpg?w=360);
+        display: none;
+    }
+    #specialImage4{
+        background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*QF73Z8ZFZ7yt-MfgySxLNQ.png);
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    .carousel_group_around{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .carousel_group{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .carausel_large{
+        display: none;
+    }
+    .return_element{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    
+
+    .mainDiv {
+        height: 400px; 
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        justify-items: center;
+       
+    }
+    .back_image{
+        background-image: url(https://media.istockphoto.com/id/1432569381/vector/abstract-smoky-transparent-wave-flow-blue-and-green-color.jpg?s=612x612&w=0&k=20&c=QS9vLGLnrX7dwXGnUF-gqmxXix-1Jr-7J9Fb-6lcpAc=);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 50%;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        opacity: 50%;
+       
+    }
+    .sloganDiv{
+        
+        height: 200px;
+        width: 30%;
+        margin-top: 100px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+    }
+    .home_small{
+        display: none;
+    }
+    .home_large{
+        display: block;
+    }  
+    
+    .sloganimageDiv{
+        /* background-image: url(https://cdn.vectorstock.com/i/preview-2x/34/35/canoe-boy-background-vector-1043435.webp); */
+        /* background-image: url(https://png.pngtree.com/background/20230528/original/pngtree-beautiful-shot-of-kayak-in-a-narrow-body-of-water-picture-image_2778846.jpg); */
+        background-image: url(https://t3.ftcdn.net/jpg/06/22/82/38/360_F_622823841_O9TgQvj1XY3HRLZz1Zs1WSrg3FGS7D8k.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 65%;
+        border-top-left-radius: 400px;
+        
+    }
+    .back_mission_image{
+        background-image: url(https://img.freepik.com/premium-vector/blue-green-circle-frame-abstract-flow-transparent-waves-shape-circle_206325-54.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 375px;
+        width: 40%;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        opacity: 50%;
+    }
+    
+    .sloganText {
+        margin: 20px;
+    }
+    
+    
+    .missionDiv {
+        height: 200px;
+        width: 50%;
+        margin-top: 100px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        justify-items: center;
+    
+    }
+    
+    .missionimageDiv {
+        background-image: url(https://i.redd.it/jmq7wtto7ncz.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-top: 100px;
+    }
+
+    .learnMoreText {
+        margin-top: 5px;
+    }
+    
+
+
+
+
+
+    .specialDiv{
+        height: 300px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    
+    .specialWrapper{
+        height: 300px; 
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        justify-items: center;
+        width: 100%;
+       
+    }
+    
+    .special{
+        width: 20%
+    }
+    .specialHeading{
+        font-weight: bold;      
+    }
+    .specialText{
+        margin-top: 15px;
+    }
+    .specialImage{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        
+        margin-top: 30px;
+    }
+    
+    #specialImage1{
+        background-image: url(https://img.freepik.com/premium-photo/2d-elementary-school-kids-cartoon-vector-clip-art_300636-1427.jpg);
+    }
+    #specialImage2{
+        background-image: url(https://storage.prompt-hunt.workers.dev/clhg99yj6000cme08dpsuaey6_1);
+    }
+    #specialImage3{
+        background-image: url(https://img.freepik.com/free-vector/children-playing-park_1308-82121.jpg?w=360);
+    }
+    #specialImage4{
+        background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*QF73Z8ZFZ7yt-MfgySxLNQ.png);
+    }
+
+
+
+
+
+
+
+    .heading_and_comments{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .comments_div{
+        height: 210px; 
+        width: 40%;
+        background-image: linear-gradient(rgb(96, 214, 96), rgb(216, 185, 82));
+        border-radius: 10px;
+        text-align: left;
+        padding: 30px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+     }
+    .comments_heading{
+        width: 30%;
+        font-size: 2em;
+     }
+     .all_circles{
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        width: 75%;
+        height: 30px;
+     }
+     .circle{
+         height: 15px;
+         width: 15px;
+         border-radius: 50%;
+         background-color: white;   
+     }
+     .trips_coming_heading{
+        font-size: 2em;
+        text-align: center;
+     }
+     .new{
+        color:rgb(96, 214, 96) ;
+    }
+    .trips_coming_text{
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .carousel_group_around{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .carousel_group{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        height: 400px;
+        
+    }
+    .carausel_large{
+        display: block;
+    }
+    
+    .return_element{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .back_mission_image{
+       
+        height: 380px;
+        width: 30%;
+        left: 50px;
+        
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .carousel_group{
+        width: 50%;
+          
+    }
+   
+}

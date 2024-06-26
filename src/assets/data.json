@@ -1,0 +1,85 @@
+{
+    "about": {
+        "name": "Thushara",
+        "fullName": "Thushara Weeraparakrama",
+        "firstPageInfo": "I've been drawing and playing with colours since childhood. Also I still feel like design is everywhere. As a frontend developer I enjoy designing websites and adding colours to everything I create.  ",
+        "secondPageInfo": "My name is Thushara Weeraparakrama and I'm currently a Frontend development student in ReDI School-Munich. I like to design and create websites and I'm searching for a job in Frontend development. I try to look at everything in an artistic way. Also I implement my learning from the school and external sources in to my creations. When I get free times I read articles about new trends and applications in Frontend development. I always enjoy from everything I create and design and there is always some thing new to learn. ",
+        "skills": [
+            {
+                "color": "salmon",
+                "skill": "HTML"
+            },
+            {
+                "color": "rgb(88, 150, 150)",
+                "skill": "CSS"
+            },
+            {
+                "color": "rgb(113, 115, 116)",
+                "skill": "JS"
+            },
+            {
+                "color": "rgb(235, 92, 111)",
+                "skill": "React"
+            },
+            {
+                "color": "rgb(57, 136, 110)",
+                "skill": "Git"
+            },
+            {
+                "color": "rgb(226, 199, 126)",
+                "skill": "UI/UX"
+            }
+        ]
+    },
+    "parentsComents": [
+        {
+            
+            "desc": "first comment,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "name": "Silvia"
+            
+        },
+        {
+            "desc": "Second comment,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "name": "Greta"  
+        },
+        {
+            "desc": "Third comment,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "name": "Nala"
+        },
+        {
+            "desc": "Fourth comment,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "name": "Zimba"
+        }
+    ],
+    "headerComponents": [
+        {   "PageNumber":"0",
+            "Heading": "FUN ON COLIBITA LAKE",
+            "Picture": "https://t4.ftcdn.net/jpg/00/67/38/91/360_F_67389110_tpws3RYaj05FQKtDNuFgCjMZQ8vOQSY9.jpg"
+        },
+        {   "PageNumber":"1",
+            "Heading": "ABOUT US",
+            "Picture": "https://png.pngtree.com/background/20230528/original/pngtree-beautiful-shot-of-kayak-in-a-narrow-body-of-water-picture-image_2778846.jpg"
+            
+        },
+        {   "PageNumber":"2",
+            "Heading": "OUR TOURS",
+            "Picture": "https://images2.alphacoders.com/591/591499.jpg" 
+        },
+        
+        {   "PageNumber":"3",
+            "Heading": "QUESTIONS AND ANSWERS",
+            "Picture": "https://cdn.pixabay.com/photo/2016/08/12/20/14/river-1589616_640.jpg" 
+        },
+        {   "PageNumber":"4",
+            "Heading": "CONTACT US",
+            "Picture": "https://thumbs.dreamstime.com/b/river-bank-fall-sunset-sky-61275396.jpg"
+            
+        },
+        {   "PageNumber":"5",
+            "Heading": "LET'S WORK TOGETHER",
+            "Picture": "https://www.freewalldownload.com/amazing-river-wallpaper/spring-river-nice-images-download-picture-photos-wallpaper-download.jpg"
+            
+        }
+        
+    ]
+}

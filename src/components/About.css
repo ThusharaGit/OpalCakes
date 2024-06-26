@@ -1,0 +1,553 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about_component{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+
+    }
+    .about_picture_sml{
+     display: block;
+     height: 200px;
+     width: 80%;
+     background-image: url(https://img.freepik.com/free-photo/young-adults-meeting-up-study_23-2149064530.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    }
+    .about_desc_sml{
+        display: block;
+        width: 80%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about_picture_lg{
+       display: none;
+    }
+    .about_desc_lg{
+        display: none;
+    }
+    .about_desc_heading{
+        padding-bottom: 20px; 
+    }
+    .experience_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px; 
+    }
+    .trophy_image{
+        height: 120px;
+        width: 30%;
+        background-image: url(https://www.shutterstock.com/image-vector/realistic-golden-trophy-gold-laurel-600nw-571877101.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+
+    }
+    .experience_desc{
+        display: block;
+        width: 80%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .experience_circle{
+        height: 100px;
+        width: 100px;
+        background-image: linear-gradient(rgb(96, 214, 96), rgb(216, 185, 82));
+        border-radius: 50%;
+        padding: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        box-shadow: rgb(216, 185, 82) 3px 3px  20px ;
+
+    }
+    .experience_mini_circle_sml{
+       display: block;
+    }.experience_mini_circle_lg{
+        display: none;
+     }
+    
+    .experience_small_circle_set{
+        padding: 10px;
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+    }
+
+    .experience_small_circle{
+        height: 15px;
+        width: 15px;
+        background-color: grey;
+        border-radius: 50%;  
+    }
+    .meet_team_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px; 
+    }
+    .meet_team_image{
+        height: 120px;
+        width: 30%;
+        background-image: url(https://thumbs.dreamstime.com/b/cartoon-boy-canoe-vector-illustration-58034727.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+
+    }
+    
+    .meet_team_heading{
+        padding-bottom: 20px;
+        
+    }
+    .member_card{
+        height: 400px;
+        width: 80%;
+        box-shadow: rgb(129, 128, 128) 1px 1px 10px;
+        border-radius: 10px;
+    }
+    .member_card_set{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        padding-bottom: 25px;  
+    }
+    .member_card_lg{
+        display: none;
+    }
+    .member_photo{
+        height: 175px;
+        width: 100%; 
+        background-image: url(https://media.istockphoto.com/id/522818515/photo/african-man-paddling-with-canoe-on-forest-river.jpg?s=612x612&w=0&k=20&c=BdrBH4z0wziXKWA0SqmPEaa6vj4V2xzWgK4CZM9GmRw=);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+   
+    .member_desc{
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        text-align: left;
+        
+    }
+    .partners_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 100%; 
+    }
+    .partners_main_desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 80%;
+        
+    }
+    .partners_heading{
+        padding: 20px;
+    }
+    .partners_main_image{
+        height: 200px;
+        width: 50%;
+        background-image: url(https://i.pinimg.com/736x/1d/d0/18/1dd01864fc7dd115a4550aa55892867a.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+
+    }
+    .partner_card_set{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 80%; 
+    }
+    .partner_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 100%; 
+    }
+    .partners_logo{
+        height: 120px;
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+    }
+    #partner_logo1{
+      background-image: url(https://static.vecteezy.com/system/resources/previews/008/214/615/original/online-shop-logo-designs-template-shopping-logo-icon-illustration-design-shopping-bag-icon-for-online-shop-business-logo-online-store-logo-vector.jpg);  
+    }
+    #partner_logo2{
+        background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/119228571/original/bfccf01b50d67afe683defd013531fa5db0ca5cf/design-flat-and-minimal-logo-in-3-hours.png);  
+      }
+    .partners_bottom_text{
+        width: 80%;
+        height: 160px;
+        background-image: linear-gradient(rgb(241, 239, 206), rgb(247, 235, 103));
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .partners_bottom_desc{
+        width: 90%; 
+    }
+    .return_set{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .return_btn{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        color: green;
+        text-align: center;
+        border: green 1px solid;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about_component{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about_picture_lg{
+
+     display: block;
+     height: 300px;
+     width: 40%;
+     background-image: url(https://img.freepik.com/free-photo/young-adults-meeting-up-study_23-2149064530.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+     
+    }
+    .about_desc_lg{
+        display: block;
+        width: 30%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about_picture_sml{
+       display: none;
+    }
+    .about_desc_sml{
+        display: none;
+    }
+    .about_desc_heading{
+        padding-bottom: 20px;
+    }
+    .experience_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+    }
+    .trophy_image{
+        height: 300px;
+        width: 30%;
+        background-image: url(https://www.shutterstock.com/image-vector/realistic-golden-trophy-gold-laurel-600nw-571877101.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+    }
+    .experience_desc{
+        display: block;
+        width: 80%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .experience_circle{
+        height: 200px;
+        width: 200px;
+        background-image: linear-gradient(rgb(96, 214, 96), rgb(216, 185, 82));
+        border-radius: 50%;
+        text-align: center;
+        font-size: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        box-shadow: rgb(216, 185, 82) 3px 3px  20px ;
+        
+       
+    }
+    .experience_big_circle_set{
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+
+    }
+    .experience_mini_circle_lg{
+        height: 160px;
+        width: 160px;
+        background-image: linear-gradient(rgb(96, 214, 96), rgb(216, 185, 82));
+        border-radius: 50%;
+        text-align: center;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        box-shadow: rgb(216, 185, 82) 3px 3px  20px ;
+        
+       
+    }
+    .experience_mini_circle_sml{
+        display: none;
+     }
+     .meet_team_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px; 
+    }
+    .meet_team_image{
+        height: 250px;
+        width: 20%;
+        background-image: url(https://thumbs.dreamstime.com/b/cartoon-boy-canoe-vector-illustration-58034727.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+
+    }
+    .meet_team_heading{
+        padding-bottom: 20px;
+        
+    }
+    .member_card_set{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        padding-bottom: 25px;  
+    }
+    .member_card{
+        height: 400px;
+        width: 25%;
+        box-shadow: rgb(129, 128, 128) 1px 1px 10px;
+        border-radius: 10px;
+    }
+    .member_card_lg{
+        display: block;
+        height: 400px;
+        width: 25%;
+        box-shadow: rgb(129, 128, 128) 1px 1px 10px;
+        border-radius: 10px;
+    }
+    .member_photo{
+        height: 175px;
+        width: 100%; 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    #mem1{
+        background-image: url(https://www.mensjournal.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_620/MTk5NDcyNjI0NTM3OTcwMDc4/imago0192754249h-1.jpg);
+    }
+    #mem2{
+        background-image: url(https://media.istockphoto.com/id/522818515/photo/african-man-paddling-with-canoe-on-forest-river.jpg?s=612x612&w=0&k=20&c=BdrBH4z0wziXKWA0SqmPEaa6vj4V2xzWgK4CZM9GmRw=);
+    }
+    #mem3{
+        background-image: url(https://i.guim.co.uk/img/media/bbee773272301a950964b09fd7c5926f253e1538/0_0_4032_3024/master/4032.jpg?width=465&dpr=1&s=none);
+    }
+    .member_desc{
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        text-align: left;
+        
+    }
+    .partners_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 100%; 
+    }
+    .partners_main_desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 80%;
+        
+    }
+    .partners_main_image{
+        height: 250px;
+        width: 40%;
+        background-image: url(https://i.pinimg.com/736x/1d/d0/18/1dd01864fc7dd115a4550aa55892867a.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+
+    }
+    .partners_heading{
+        padding: 20px;
+    }
+    .partner_card_set{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 80%; 
+    }
+    .partner_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding-bottom: 25px;
+        width: 40%; 
+    }
+    .partners_logo{
+        height: 210px;
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+    }
+    #partner_logo1{
+      background-image: url(https://static.vecteezy.com/system/resources/previews/008/214/615/original/online-shop-logo-designs-template-shopping-logo-icon-illustration-design-shopping-bag-icon-for-online-shop-business-logo-online-store-logo-vector.jpg);  
+    }
+    #partner_logo2{
+        background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/119228571/original/bfccf01b50d67afe683defd013531fa5db0ca5cf/design-flat-and-minimal-logo-in-3-hours.png);  
+      }
+    .partners_bottom_text{
+        width: 80%;
+        height: 100px;
+        background-image: linear-gradient(rgb(241, 239, 206), rgb(247, 235, 103));
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .partners_bottom_desc{
+        width: 90%; 
+    }
+    .return_set{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .return_btn{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        color: green;
+        text-align: center;
+        border: green 1px solid;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .trophy_image{
+        height: 350px;
+        width: 30%;
+        padding-bottom: 25px;
+    }
+    .meet_team_image{
+        height: 350px;
+        width: 20%;
+        padding-bottom: 30px;
+
+    }
+    .partners_main_image{
+        height: 400px;
+        width: 40%;
+        padding-bottom: 30px;
+
+    }
+    .partners_logo{
+        height: 250px;
+        width: 50%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 25px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

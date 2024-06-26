@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Anuphan&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Berkshire+Swash&family=Black+Ops+One&family=Bonbon&family=Henny+Penny&family=Inter:wght@700&family=Josefin+Sans&family=Kablammo&family=Lobster&family=Luckiest+Guy&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Righteous&family=Roboto&family=Rubik+Maze&family=Shantell+Sans&family=Snowburst+One&family=Stick+No+Bills&family=Tapestry&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Open Sans', sans-serif ;
+}
+
+body {
+height: 500vh;
+width: 100vw;
+}
+
+/* Homepage............ */
+.app {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+button:hover {
+  color: rgb(251, 168, 13);
+  background-image: none;
+  box-shadow: rgb(163, 162, 162) 1px 1px 20px;
+}
+
+/* navbar............ */  
+.nav {
+  height: 80px;
+  width: 80%;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.navBtn {
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 15px;
+}
+.logo {
+  /* color: rgb(3, 142, 152); */
+  color: green;
+}
+.logoDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  font-size: 1.3em; 
+}
+.logoImage{
+  /* background-image: url(https://thumbs.dreamstime.com/b/rowing-race-boat-one-person-kayak-ride-icon-blue-water-vector-illustration-canoe-paddle-sport-paddles-cartoon-kids-152056006.jpg) ; */
+  background-image: url(https://thumbs.dreamstime.com/b/canoe-icon-gradient-green-colour-sport-symbol-illustration-vector-element-perfect-289299406.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+   
+}
+
+.bookAtripBtn{
+  background: linear-gradient(to right,rgb(82, 180, 89), rgb(217, 200, 93)) ;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.learnMoreDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.learnMoreBtn{
+  background: linear-gradient(to right,rgb(82, 180, 89), rgb(217, 200, 93)) ;
+  color: white;
+  padding: 12px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+
+
+
+.invisible{
+  display: none;
+}
+.visible{
+  display: block;
+}
+
+

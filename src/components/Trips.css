@@ -1,0 +1,253 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .small{
+        display: block;
+    }
+    .large{
+        display: none;
+    }
+    .trips_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .main-desc{
+        text-align: center;
+        padding: 25px;
+    }
+    .calendar_description_all{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        height: 870px;
+        
+    }
+    .calendar_div{
+        height: 350px;
+        width: 80%;
+        background-image: linear-gradient(rgb(138, 222, 138), rgb(239, 223, 170));
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: flex-start;
+        border-radius: 10px;
+        padding: 15px;
+
+    }
+    .calendar_description_para{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .desc_dates_div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .green_date{
+        height: 45px;
+        width: 45px;
+        background-color: rgb(1, 156, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+       
+    }
+    .green_date_desc{
+        font-size: 0.8em;
+        width: 70%;
+        padding-top: 10px;
+    }
+    .calendar{
+        height: 350px;
+        width: 80%;
+        background-color: beige;
+        border-radius: 10px;
+    }
+
+    .previous_trips_heading{
+        padding: 25px;
+    }
+    .previous_trips_div{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 25px;
+
+    }
+    .previous_trips_picture{
+        height: 200px;
+        width:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    #previous_trips_pic1{
+        background-image: url(https://www.familiesmagazine.com.au/wp-content/uploads/2021/08/1200-x-680px114-1.png);
+    }
+    #previous_trips_pic2{
+       background-image: url(https://i0.wp.com/swanseaadventures.com/wp-content/uploads/2021/08/Barry-Island-@-Lliw-10.jpg?fit=5139%2C3426&ssl=1);
+    }
+    .previous_trips_para{
+        padding-top: 15px;
+    }
+    .see_detais_div{
+        display: flex;
+        padding-bottom: 25px;
+        
+    }
+    .see_details_heading{
+        color: green;
+        width: 55%;
+        padding-top: 25px;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .small{
+        display: none;
+    }
+    .large{
+        display: block;
+        width: 150px;
+        text-align: center;
+    }
+    .trips_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .main-desc{
+        text-align: center;
+        padding: 25px;
+    }
+    .calendar_description_all{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-items: center;
+        align-items: center;
+        width: 80%;
+        
+        
+       
+    }
+    .calendar_div{
+        height: 300px;
+        width: 60%; 
+        background-image: linear-gradient(rgb(138, 222, 138), rgb(239, 223, 170));
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: flex-start;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 20px;
+    }
+    
+    .calendar_description_para{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .desc_dates_div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .green_date{
+        height: 45px;
+        width: 45px;
+        background-color: rgb(1, 156, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+       
+    }
+    .green_date_desc{
+        font-size: 0.8em;
+        width: 70%;
+        padding-top: 10px;
+    }
+    .calendar{
+        height: 300px;
+        width: 40%;
+        background-color: beige;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+     .previous_trips_div{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        width: 80%;
+        
+    } 
+    .previous_trips_desc{
+        text-align: left;
+        padding: 25px;
+    }
+    .previous_trips_heading{
+        padding: 25px;
+    }
+    .previous_trips_picture{
+        height: 250px;
+        width:35%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    #previous_trips_pic1{
+        background-image: url(https://www.familiesmagazine.com.au/wp-content/uploads/2021/08/1200-x-680px114-1.png);
+    }
+    #previous_trips_pic2{
+       background-image: url(https://i0.wp.com/swanseaadventures.com/wp-content/uploads/2021/08/Barry-Island-@-Lliw-10.jpg?fit=5139%2C3426&ssl=1);
+    }
+    .previous_trips_desc{
+        width:60%;
+        font-size: 0.9em;
+    }
+    .previous_trips_para{
+        padding-top: 10px;
+    }
+    .see_detais_div{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 25px;
+        
+        
+    }
+    .see_details_heading{
+        color: green;
+        width: 30%;
+        padding-top: 25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+.main-desc{
+    text-align: center;
+}
