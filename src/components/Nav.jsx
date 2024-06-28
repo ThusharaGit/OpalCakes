@@ -18,7 +18,7 @@ function Nav() {
 
             <div className="contact_button_set">
             <button className="navBtn" onClick={() => navigate('Contact')}>CONTACT</button>
-            <button className="navBtn" onClick={() => navigate('Contact2')}>CONTACT2</button>
+           
             </div>
         </div>
 
